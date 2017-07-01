@@ -18,7 +18,7 @@ while guessesTaken < 6:  # Repeats the indented code while the value of guessesT
     if guess < number:  # Decides if the value of guess is less than the value of number, executes the indented code below if it's true.
         print('Your guess is too low.')  # Prints out the string between parentheses to console, starts a new line.
 
-    if guess > number:  # Decides if the value of guess is more than the yalue of number, executes the indented code below if it's true.
+    if guess > number:  # Decides if the value of guess is more than the value of number, executes the indented code below if it's true.
         print('Your guess is too high.')  # Prints out the string between parentheses to console, starts a new line.
 
     if guess == number:  # Decides if the value of guess variable is equal to the value of number variable, executes the indented code below if it's true.
